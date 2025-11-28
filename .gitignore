@@ -1,0 +1,44 @@
+
+# ✅ **.gitignore File for Your Project**
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python notebook checkpoints
+.ipynb_checkpoints/
+
+# Uploaded files
+uploads/
+
+# YOLO detection runs
+runs/
+
+# SQLite database
+database.db
+database_backup_20250930_145445.db
+
+# YOLO model weights
+*.pt
+best.pt
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+#Dataset
+dataset/
